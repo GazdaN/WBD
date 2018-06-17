@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="entities.Kawiarnie" table="KAWIARNIE" schema="NATALIAGAZDA">
+        <id name="idKawiarni">
+            <column name="ID_KAWIARNI" sql-type="number(*)" precision="2147483646"/>
+        </id>
+        <property name="nazwa">
+            <column name="NAZWA" sql-type="varchar2(30)" length="30"/>
+        </property>
+        <property name="numerLokalu">
+            <column name="NUMER_LOKALU" sql-type="varchar2(5)" length="5"/>
+        </property>
+        <property name="kodPocztowy">
+            <column name="KOD_POCZTOWY" sql-type="char(6)" length="6"/>
+        </property>
+        <property name="numerTelefonu">
+            <column name="NUMER_TELEFONU" sql-type="char(12)" length="12"/>
+        </property>
+        <property name="miejscowosc">
+            <column name="MIEJSCOWOSC" sql-type="varchar2(30)" length="30"/>
+        </property>
+        <property name="ulica">
+            <column name="ULICA" sql-type="varchar2(30)" length="30"/>
+        </property>
+        <property name="email">
+            <column name="EMAIL" sql-type="varchar2(30)" length="30"/>
+        </property>
+    </class>
+</hibernate-mapping>

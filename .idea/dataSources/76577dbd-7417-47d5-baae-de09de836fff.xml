@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.9">
+    <root id="1">
+      <ServerVersion>11.2.0.1</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="NATALIAGAZDA">
+      <ObjectId>91</ObjectId>
+      <IntrospectionTimestamp>2018-06-13.23:19:40</IntrospectionTimestamp>
+      <CreatedTimestamp>2014-06-08.18:58:03</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-12.14:32:40</ModifiedTimestamp>
+      <CommentsHash>118686715234315</CommentsHash>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DIP">
+      <ObjectId>14</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="ORACLE_OCM">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DBSNMP">
+      <ObjectId>30</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="APPQOSSYS">
+      <ObjectId>31</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="WMSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="EXFSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="CTXSYS">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="XDB">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="ANONYMOUS">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="ORDSYS">
+      <ObjectId>53</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="ORDDATA">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="ORDPLUGINS">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>56</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="MDSYS">
+      <ObjectId>57</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="OLAPSYS">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="MDDATA">
+      <ObjectId>65</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="SPATIAL_WFS_ADMIN_USR">
+      <ObjectId>67</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="SPATIAL_CSW_ADMIN_USR">
+      <ObjectId>70</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="SYSMAN">
+      <ObjectId>72</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="MGMT_VIEW">
+      <ObjectId>74</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="FLOWS_FILES">
+      <ObjectId>75</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>76</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="APEX_030200">
+      <ObjectId>78</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="OWBSYS">
+      <ObjectId>79</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="OWBSYS_AUDIT">
+      <ObjectId>83</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="SCOTT">
+      <ObjectId>84</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="HR">
+      <ObjectId>85</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="OE">
+      <ObjectId>86</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="IX">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="SH">
+      <ObjectId>88</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="PM">
+      <ObjectId>89</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="BI">
+      <ObjectId>90</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <table id="40" parent="2" name="ELEMENTY_MENU">
+      <ObjectId>76525</ObjectId>
+      <CreatedTimestamp>2014-06-08.18:58:07</CreatedTimestamp>
+      <ModifiedTimestamp>2014-06-08.18:58:10</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="41" parent="2" name="KAWIARNIE">
+      <ObjectId>76523</ObjectId>
+      <CreatedTimestamp>2014-06-08.18:58:03</CreatedTimestamp>
+      <ModifiedTimestamp>2014-06-08.18:58:05</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="42" parent="2" name="KLIENCI">
+      <ObjectId>76533</ObjectId>
+      <CreatedTimestamp>2014-06-08.18:58:09</CreatedTimestamp>
+      <ModifiedTimestamp>2014-06-08.18:58:09</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="43" parent="2" name="LOGIN">
+      <ObjectId>76731</ObjectId>
+      <CreatedTimestamp>2018-06-12.13:43:44</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-12.14:32:40</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="44" parent="2" name="MENU">
+      <ObjectId>76531</ObjectId>
+      <CreatedTimestamp>2014-06-08.18:58:08</CreatedTimestamp>
+      <ModifiedTimestamp>2014-06-08.18:58:09</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="45" parent="2" name="ZAMOWIENIA">
+      <ObjectId>76529</ObjectId>
+      <CreatedTimestamp>2014-06-08.18:58:08</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-12.01:34:54</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="46" parent="2" name="ZAMOWIENIA_SZCZEGOLY">
+      <ObjectId>76535</ObjectId>
+      <CreatedTimestamp>2014-06-08.18:58:09</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-12.01:41:10</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="47" parent="2" name="ZAPASY">
+      <ObjectId>76527</ObjectId>
+      <CreatedTimestamp>2014-06-08.18:58:07</CreatedTimestamp>
+      <ModifiedTimestamp>2014-06-08.18:58:10</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="48" parent="2" name="ZAPASY_ELEMENT_MENU">
+      <ObjectId>76536</ObjectId>
+      <CreatedTimestamp>2014-06-08.18:58:09</CreatedTimestamp>
+      <ModifiedTimestamp>2014-06-08.18:58:09</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="49" parent="40" name="ID_POZYCJI_MENU">
+      <Position>1</Position>
+      <Comment>Okresla numer identyfikacyjny menu</Comment>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="40" name="NAZWA">
+      <Position>2</Position>
+      <Comment>Okresla nazwe elementu menu</Comment>
+      <DataType>VARCHAR2(80 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="40" name="DATA_WPROWADZENIA">
+      <Position>3</Position>
+      <Comment>Okresla date wprowadzenia menu dokawiarni</Comment>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="52" parent="40" name="CENA">
+      <Position>4</Position>
+      <Comment>Okresla cene elementu</Comment>
+      <DataType>NUMBER(10,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="53" parent="40" name="OPIS">
+      <Position>5</Position>
+      <Comment>Okresla opis elementu menu</Comment>
+      <DataType>VARCHAR2(800 byte)|0s</DataType>
+    </column>
+    <column id="54" parent="40" name="ID_MENU">
+      <Position>6</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="55" parent="40" name="POZYCJA_MENU_PK">
+      <ObjectId>76526</ObjectId>
+      <CreatedTimestamp>2014-06-08.18:58:07</CreatedTimestamp>
+      <ModifiedTimestamp>2014-06-08.18:58:07</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_POZYCJI_MENU</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="56" parent="40" name="POZYCJA_MENU_PK">
+      <ModifiedTimestamp>2014-06-08.18:58:07</ModifiedTimestamp>
+      <ColNames>ID_POZYCJI_MENU</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>POZYCJA_MENU_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="57" parent="40" name="MENU_MA_POZYCJE">
+      <ModifiedTimestamp>2014-06-08.18:58:10</ModifiedTimestamp>
+      <ColNames>ID_MENU</ColNames>
+      <RefSchemaName>NATALIAGAZDA</RefSchemaName>
+      <RefTableName>MENU</RefTableName>
+      <RefKeyName>UNIQUE_IDENTIFIER15</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="58" parent="41" name="ID_KAWIARNI">
+      <Position>1</Position>
+      <Comment>Identyfikator kawiarni</Comment>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="59" parent="41" name="NAZWA">
+      <Position>2</Position>
+      <Comment>Nazwa kawiarni</Comment>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="41" name="NUMER_LOKALU">
+      <Position>3</Position>
+      <Comment>Numer budynku</Comment>
+      <DataType>VARCHAR2(5 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="61" parent="41" name="KOD_POCZTOWY">
+      <Position>4</Position>
+      <Comment>Kod pocztowy</Comment>
+      <DataType>CHAR(6 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="62" parent="41" name="NUMER_TELEFONU">
+      <Position>5</Position>
+      <Comment>Numer telefonu stacjonarnego w kawiarni</Comment>
+      <DataType>CHAR(12 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="63" parent="41" name="MIEJSCOWOSC">
+      <Position>6</Position>
+      <Comment>Miejscowosc, w ktorej znajduje sie kawiarnia</Comment>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="41" name="ULICA">
+      <Position>7</Position>
+      <Comment>Ulica, na której znajduje sie kawiarnia</Comment>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="41" name="EMAIL">
+      <Position>8</Position>
+      <Comment>Email kawiarni</Comment>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="66" parent="41" name="UNIQUE_IDENTIFIER1">
+      <ObjectId>76524</ObjectId>
+      <CreatedTimestamp>2014-06-08.18:58:06</CreatedTimestamp>
+      <ModifiedTimestamp>2014-06-08.18:58:06</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_KAWIARNI</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="67" parent="41" name="UNIQUE_IDENTIFIER1">
+      <ModifiedTimestamp>2014-06-08.18:58:06</ModifiedTimestamp>
+      <ColNames>ID_KAWIARNI</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>UNIQUE_IDENTIFIER1</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="68" parent="42" name="ID_KLIENTA">
+      <Position>1</Position>
+      <Comment>Okresla numer identyfikacyjny klienta</Comment>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="69" parent="42" name="IMIE">
+      <Position>2</Position>
+      <Comment>Okresla imie klienta</Comment>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="42" name="NAZWISKO">
+      <Position>3</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+    </column>
+    <column id="71" parent="42" name="NR_TELEFONU">
+      <Position>4</Position>
+      <Comment>Okresla numer telefonu klienta</Comment>
+      <DataType>VARCHAR2(12 byte)|0s</DataType>
+    </column>
+    <index id="72" parent="42" name="KLIENT_PK">
+      <ObjectId>76534</ObjectId>
+      <CreatedTimestamp>2014-06-08.18:58:09</CreatedTimestamp>
+      <ModifiedTimestamp>2014-06-08.18:58:09</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_KLIENTA</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="73" parent="42" name="KLIENT_PK">
+      <ModifiedTimestamp>2014-06-08.18:58:09</ModifiedTimestamp>
+      <ColNames>ID_KLIENTA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>KLIENT_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="74" parent="43" name="USERNAME">
+      <Position>1</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="75" parent="43" name="PASSWORD">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <column id="76" parent="43" name="UPRAWNIENIA">
+      <Position>3</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <index id="77" parent="43" name="LOGIN_USERNAME_UINDEX">
+      <ObjectId>76733</ObjectId>
+      <CreatedTimestamp>2018-06-12.14:29:37</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-12.14:29:37</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>USERNAME</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="78" parent="43" name="LOGIN_USERNAME_PK">
+      <ModifiedTimestamp>2018-06-12.14:32:39</ModifiedTimestamp>
+      <ColNames>USERNAME</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>LOGIN_USERNAME_UINDEX</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="79" parent="44" name="ID_MENU">
+      <Position>1</Position>
+      <Comment>Okresla numer indetyfikacyjny menu</Comment>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="80" parent="44" name="NAZWA_MENU">
+      <Position>2</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="44" name="ID_KAWIARNI">
+      <Position>3</Position>
+      <Comment>Okresla ID kawiarni, w której jest menu</Comment>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="82" parent="44" name="UNIQUE_IDENTIFIER15">
+      <ObjectId>76532</ObjectId>
+      <CreatedTimestamp>2014-06-08.18:58:09</CreatedTimestamp>
+      <ModifiedTimestamp>2014-06-08.18:58:09</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_MENU</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="83" parent="44" name="UNIQUE_IDENTIFIER15">
+      <ModifiedTimestamp>2014-06-08.18:58:09</ModifiedTimestamp>
+      <ColNames>ID_MENU</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>UNIQUE_IDENTIFIER15</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="84" parent="44" name="KAWIARNIA_MA_MENU">
+      <ModifiedTimestamp>2014-06-08.18:58:09</ModifiedTimestamp>
+      <ColNames>ID_KAWIARNI</ColNames>
+      <RefSchemaName>NATALIAGAZDA</RefSchemaName>
+      <RefTableName>KAWIARNIE</RefTableName>
+      <RefKeyName>UNIQUE_IDENTIFIER1</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="85" parent="45" name="ID_ZAMOWIENIA">
+      <Position>1</Position>
+      <Comment>Okresla numer identyfikacyjny zamowienia</Comment>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="86" parent="45" name="DATA">
+      <Position>2</Position>
+      <Comment>Okresla date zlozenia zamowienia</Comment>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="87" parent="45" name="ID_KLIENTA">
+      <Position>3</Position>
+      <Comment>Okresla ID klienta ktory zlozyl zamowienie</Comment>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="88" parent="45" name="ID_PRACOWNIKA">
+      <Position>4</Position>
+      <Comment>Okresla ID pracownika obslugujacego zamowienie</Comment>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="89" parent="45" name="UNIQUE_IDENTIFIER9">
+      <ObjectId>76530</ObjectId>
+      <CreatedTimestamp>2014-06-08.18:58:08</CreatedTimestamp>
+      <ModifiedTimestamp>2014-06-08.18:58:08</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_ZAMOWIENIA</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="90" parent="45" name="UNIQUE_IDENTIFIER9">
+      <ModifiedTimestamp>2014-06-08.18:58:08</ModifiedTimestamp>
+      <ColNames>ID_ZAMOWIENIA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>UNIQUE_IDENTIFIER9</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="91" parent="45" name="KLIENT_SKLADA_ZAMOWIENIE">
+      <ModifiedTimestamp>2014-06-08.18:58:10</ModifiedTimestamp>
+      <ColNames>ID_KLIENTA</ColNames>
+      <RefSchemaName>NATALIAGAZDA</RefSchemaName>
+      <RefTableName>KLIENCI</RefTableName>
+      <RefKeyName>KLIENT_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="92" parent="46" name="ID_ZAMOWIENIA">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="93" parent="46" name="ID_POZYCJI_MENU">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="94" parent="46" name="ILOSC">
+      <Position>3</Position>
+      <Comment>Ilosc zamowionych produktow danego typu</Comment>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="95" parent="47" name="ID_PRODUKTU">
+      <Position>1</Position>
+      <Comment>Okresla numer idnetyfikacyjny produktu w kawiarni</Comment>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="96" parent="47" name="NAZWA">
+      <Position>2</Position>
+      <Comment>Okresla nazwe produktu</Comment>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="97" parent="47" name="ILOSC">
+      <Position>3</Position>
+      <Comment>Okresla ilosc produktu pozostala</Comment>
+      <DataType>VARCHAR2(5 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="98" parent="47" name="DATA_PRZYDATNOSCI">
+      <Position>4</Position>
+      <Comment>Okresla date przydatnosci produktu</Comment>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="99" parent="47" name="ID_KAWIARNI">
+      <Position>5</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="100" parent="47" name="UNIQUE_IDENTIFIER6">
+      <ObjectId>76528</ObjectId>
+      <CreatedTimestamp>2014-06-08.18:58:08</CreatedTimestamp>
+      <ModifiedTimestamp>2014-06-08.18:58:08</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_PRODUKTU</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="101" parent="47" name="UNIQUE_IDENTIFIER6">
+      <ModifiedTimestamp>2014-06-08.18:58:08</ModifiedTimestamp>
+      <ColNames>ID_PRODUKTU</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>UNIQUE_IDENTIFIER6</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="102" parent="47" name="MA">
+      <ModifiedTimestamp>2014-06-08.18:58:10</ModifiedTimestamp>
+      <ColNames>ID_KAWIARNI</ColNames>
+      <RefSchemaName>NATALIAGAZDA</RefSchemaName>
+      <RefTableName>KAWIARNIE</RefTableName>
+      <RefKeyName>UNIQUE_IDENTIFIER1</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="103" parent="48" name="ID_PRODUKTU">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="104" parent="48" name="ID_POZYCJI_MENU">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="105" parent="48" name="ILOSC">
+      <Position>3</Position>
+      <Comment>Pozostala ilosc danego produktu w zapasach</Comment>
+      <DataType>NUMBER(3 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+  </database-model>
+</dataSource>

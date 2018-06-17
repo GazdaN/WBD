@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="entities.Menu" table="MENU" schema="NATALIAGAZDA">
+        <id name="idMenu">
+            <column name="ID_MENU" sql-type="number(*)" precision="2147483646"/>
+        </id>
+        <property name="nazwaMenu">
+            <column name="NAZWA_MENU" sql-type="varchar2(100)" length="100"/>
+        </property>
+    </class>
+</hibernate-mapping>
